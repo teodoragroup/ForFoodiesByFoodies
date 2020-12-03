@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">For Foodies By Foodies</string>
+    <string name="login_btn_signIn">Sign In</string>
+    <string name="login_btn_register">Register</string>
+    <string name="login_tv">Do not have an account?</string>
+    <string name="login_email">Email</string>
+    <string name="login_password">Password</string>
+    <string name="reg_et_fn">First Name</string>
+    <string name="reg_et_ln">Last Name</string>
+    <string name="reg_btn">Create Account</string>
+    <string name="w_tv_w">Welcome to our app!</string>
+    <string name="w_tv_w1">Your one-stop shop for all your food needs!</string>
+    <string name="w_tv_w2">Check out our recommendations:</string>
+    <string name="w_btn_res">Restaurants</string>
+    <string name="w_btn_str">Street Food</string>
+    <string name="w_btn_profile">My Profile</string>
+    <string name="w_btn_signOut">Sign Out</string>
+    <string name="ar_btn_pick">Upload Image</string>
+    <string name="ar_btn_addR">Add Restaurant</string>
+    <string name="ar_et_Rname">Name of the restaurant</string>
+    <string name="ar_et_Rloc">Location of the restaurant</string>
+    <string name="ar_et_Rdesc">Description of the restaurant</string>
+    <string name="ar_et_RaddedBy">Your name</string>
+    <string name="as_btn_addS">Add Stall</string>
+    <string name="as_et_Sname">Name of the stall</string>
+    <string name="as_et_Sloc">Location of the stall</string>
+    <string name="as_et_Sdesc">Description of the stall</string>
+    <string name="ds_btn_add">Add Review</string>
+    <string name="ds_btn_view">View Reviews</string>
+    <string name="ds_btn_book">Make Reservation</string>
+    <string name="reviewS_submit">Submit</string>
+    <string name="reviewS_text">Write your review here</string>
+    <string name="reviewS_count">Rating</string>
+    <string name="reviewS_d_delete">Delete Review</string>
+    <string name="w_btn_users">Users</string>
+    <string name="my_et_fname">Type in your new first name</string>
+    <string name="my_et_lname">Type in your new last name</string>
+    <string name="my_et_email">Type in your new email name</string>
+    <string name="my_et_password">Type in your new password name</string>
+    <string name="my_btn">Save Changes</string>
+    <string name="edit">Edit Profile</string>
+    <string name="tv4">Type of user</string>
+
+
+</resources>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddRestaurant">
+
+    <Button
+        android:id="@+id/ar_btn_pick"
+        android:layout_width="203dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="132dp"
+        android:layout_marginLeft="132dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="133dp"
+        android:layout_marginRight="133dp"
+        android:text="@string/ar_btn_pick"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ar_image" />
+
+    <EditText
+        android:id="@+id/ar_et_Rname"
+        android:layout_width="330dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginRight="46dp"
+        android:ems="10"
+        android:hint="@string/ar_et_Rname"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ar_btn_pick" />
+
+    <EditText
+        android:id="@+id/ar_et_Rdesc"
+        android:layout_width="330dp"
+        android:layout_height="123dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginLeft="29dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginRight="45dp"
+        android:ems="10"
+        android:hint="@string/ar_et_Rdesc"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.857"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ar_et_Rloc" />
+
+    <EditText
+        android:id="@+id/ar_et_Rloc"
+        android:layout_width="330dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginLeft="29dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="47dp"
+        android:layout_marginRight="47dp"
+        android:ems="10"
+        android:hint="@string/ar_et_Rloc"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ar_et_Rname" />
+
+    <EditText
+        android:id="@+id/ar_et_RaddedBy"
+        android:layout_width="330dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginLeft="29dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginRight="44dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.75"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ar_et_Rdesc" />
+
+    <Button
+        android:id="@+id/ar_btn_addR"
+        android:layout_width="169dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="132dp"
+        android:layout_marginLeft="132dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="110dp"
+        android:layout_marginRight="110dp"
+        android:layout_marginBottom="41dp"
+        android:text="@string/ar_btn_addR"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ar_et_RaddedBy" />
+
+    <ImageView
+        android:id="@+id/ar_image"
+        android:layout_width="291dp"
+        android:layout_height="189dp"
+        android:layout_marginStart="69dp"
+        android:layout_marginLeft="69dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="69dp"
+        android:layout_marginRight="69dp"
+        android:src="@drawable/ic_baseline_image_search_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

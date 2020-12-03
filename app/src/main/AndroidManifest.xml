@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.forfoodiesbyfoodies">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ForFoodiesByFoodies">
+        <activity android:name=".ProfilesDetails"
+            android:label="Profile Details"></activity>
+        <activity android:name=".UsersProfiles"
+            android:label="Users Profiles"/>
+        <activity android:name=".MyProfile"
+            android:label="Edit My Profile"/>
+        <activity android:name=".ReviewsRestDetails"
+            android:label="Restaurant Reviews Details"/>
+        <activity android:name=".ViewReviewRest"
+            android:label="Restaurant Reviews"/>
+        <activity android:name=".AddReviewRest"
+            android:label="Add Restaurant Review"/>
+        <activity
+            android:name=".ReviewsStallDetails"
+            android:label="Stall Reviews Details" />
+        <activity
+            android:name=".AddReviewStall"
+            android:label="Add Stall Review" />
+        <activity
+            android:name=".ViewReviewStall"
+            android:label="Stall Reviews" />
+        <activity
+            android:name=".Reservation"
+            android:label="Reservation" />
+        <activity
+            android:name=".RestDetails"
+            android:label="Restaurant Details" />
+        <activity
+            android:name=".StallDetails"
+            android:label="Stall Details" />
+        <activity
+            android:name=".AddStall"
+            android:label="Add New Stall" />
+        <activity
+            android:name=".AddRestaurant"
+            android:label="Add New Restaurant" />
+        <activity
+            android:name=".Restaurants"
+            android:label="Restaurants" />
+        <activity
+            android:name=".StreetFood"
+            android:label="Street Food" />
+        <activity
+            android:name=".Welcome"
+            android:label="Welcome" />
+        <activity
+            android:name=".Register"
+            android:label="Create New Account" />
+        <activity
+            android:name=".Login"
+            android:label="Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

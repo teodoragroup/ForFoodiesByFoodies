@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Welcome">
+
+    <TextView
+        android:id="@+id/w_tv_w"
+        android:layout_width="350dp"
+        android:layout_height="93dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginLeft="38dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginRight="29dp"
+        android:gravity="center"
+        android:text="@string/w_tv_w"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/w_btn_users" />
+
+    <TextView
+        android:id="@+id/w_tv_w2"
+        android:layout_width="329dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginLeft="38dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginRight="44dp"
+        android:gravity="center"
+        android:text="@string/w_tv_w2"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/w_tv_w1" />
+
+    <Button
+        android:id="@+id/w_btn_res"
+        android:layout_width="332dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="39dp"
+        android:layout_marginLeft="39dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:text="@string/w_btn_res"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/w_tv_w2" />
+
+    <Button
+        android:id="@+id/w_btn_str"
+        android:layout_width="331dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="39dp"
+        android:layout_marginLeft="39dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:text="@string/w_btn_str"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/w_btn_res" />
+
+    <TextView
+        android:id="@+id/w_tv_w1"
+        android:layout_width="360dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="39dp"
+        android:layout_marginLeft="39dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginRight="44dp"
+        android:gravity="center"
+        android:text="@string/w_tv_w1"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.375"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/w_tv_w" />
+
+    <TextView
+        android:id="@+id/w_tv"
+        android:layout_width="150dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="221dp"
+        android:layout_marginLeft="221dp"
+        android:layout_marginTop="75dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="40dp"
+        android:gravity="right"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/w_btn_str" />
+
+    <Button
+        android:id="@+id/w_btn_users"
+        android:layout_width="157dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="213dp"
+        android:layout_marginLeft="213dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginRight="41dp"
+        android:text="@string/w_btn_users"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
